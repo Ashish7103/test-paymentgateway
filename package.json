@@ -1,0 +1,30 @@
+{
+  "name": "payment-gateway-test",
+  "version": "1.0.0",
+  "description": "Sample Payment Gateway Integration with Razorpay",
+  "homepage": "https://github.com/Ashish7103/SamplePaymentGateway#readme",
+  "bugs": {
+    "url": "https://github.com/Ashish7103/SamplePaymentGateway/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ashish7103/SamplePaymentGateway.git"
+  },
+  "license": "ISC",
+  "author": "Ashish Kumar Singh",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "razorpay": "^2.9.6",
+    "ejs": "^3.1.9"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
